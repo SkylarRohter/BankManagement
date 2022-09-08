@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf2d1afa-842f-49d7-b04c-cf90bd4e7bd4" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wps/srohter/bank/startings/funds/Withdraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wps/srohter/bank/startings/funds/Withdraw.java" afterDir="false" />
+    <list default="true" id="cf2d1afa-842f-49d7-b04c-cf90bd4e7bd4" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/src/wps/srohter/bank/startings/SortSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wps/srohter/bank/startings/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wps/srohter/bank/startings/Screen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662570706140</updated>
-      <workItem from="1662570707686" duration="4795000" />
+      <workItem from="1662570707686" duration="5355000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1662655567231</created>
@@ -55,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662655567231</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1662656645613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662656645613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,7 +81,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
