@@ -1,12 +1,25 @@
 package wps.srohter.bank.startings;
 
+import java.util.Map;
 import java.util.Scanner;
 
 /**
  * @author skylarrohter
  */
 public class Screen {
-    public boolean createScreen(){
+
+
+    private Map<String, Integer> account;
+
+    public Map<String, Integer> getAccount() {
+        return account;
+    }
+
+    public void setAccount(Map<String, Integer> account) {
+        this.account = account;
+    }
+
+    public boolean createScreen() {
         Scanner input = new Scanner(System.in);
         boolean returnable = false;
         startScreen();
@@ -19,11 +32,13 @@ public class Screen {
         sorter.sort();
         return returnable;
     }
-    private void startScreen(){
+
+    private void startScreen() {
         System.out.println("|--------------------------------|");
         System.out.println("|       Welcome to the Bank      |");
     }
-    private void selection(){
+
+    private void selection() {
         System.out.println("|--------------------------------|");
         System.out.println("|        Please Select One       |");
         System.out.println("|                                |");
@@ -34,7 +49,8 @@ public class Screen {
         System.out.println("|                                |");
         System.out.println("|--------------------------------|");
     }
-    private void end(){
+
+    private void end() {
         System.out.println("|           BM Banking           |");
         System.out.println("|--------------------------------|");
     }
